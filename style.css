@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background: url(./Assets/Background.jpg) no-repeat top center/cover;
+    
+}
+
+#container {
+    width: 360px;
+    height: 712px;
+    padding: 40px;
+    margin: auto;
+    
+}
+
+#profile-id {
+    padding: 20px;
+    margin: auto;
+}
+
+
+
+#profile-picture img{
+    padding-block: 100px solid;
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+
+    
+    
+
+
+
+#profile-id p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 525;
+    margin: 13px;
+    color: #FFF5F9;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+
+
+ul li a{
+    border-radius: 15px;
+    border: 1px solid rgba(244, 230, 255, 0.6);
+    background: rgba(102, 78, 120, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    height: 52px;
+    align-items: center;
+    padding: 16px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 510;
+    margin: 9px;
+    color: #FFF5F9;
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+ul li a:hover{
+    background: rgba(102, 78, 120, 1.5);
+    border: 1.5px solid white;
+}
+
+#coment p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 510;
+    margin: 9px;
+    color: #FFF5F9;
+    text-align: center;
+    border: 2px solid rgba(244, 230, 255, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+}
+    
+    
+    
+
+    
+
+    
+    
+
+   
+    
+    
+    
+
